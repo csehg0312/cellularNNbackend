@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "servers"
+version = "0.1.0"
+description = "The servers container"
+authors = ["csehg <csehgabor451@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.5"
+aiohttp = "^3.10.5"
+aiortc = "^1.9.0"
+numpy = "^2.1.1"
+opencv-python = "^4.10.0.84"
+asyncio = "^3.4.3"
+pathlib = "^1.0.1"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
